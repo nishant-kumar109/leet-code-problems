@@ -5,7 +5,7 @@
  * @param {number} num
  * @return {number}
  */
-var findComplement = function(num) {
+var findComplement = function(num){
     let str = num.toString(2);
     let binArr = str.split('')
     for(let i in binArr){
